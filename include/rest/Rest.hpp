@@ -1,5 +1,5 @@
-#ifndef WPNETWORK_H_
-#define WPNETWORK_H_
+#ifndef REST_H_
+#define REST_H_
 
 #include <curl/curl.h>
 #include <iostream>
