@@ -29,25 +29,3 @@ $(BINDIR):
 
 $(BUILDDIR):
 	@mkdir -p $(BUILDDIR)
-
-#main: $(OBJECTS)
-#	$(LINKER) $@ $(LFLAGS) $(OBJECTS) -I./include
-#	@echo "Good to go"
-
-#CXX = g++ 
-#IDIR = ./include
-#SDIR = ./src
-#CXXFLAGS = -Wall -g -lcurl -I$(IDIR) -I$(SDIR)
-#
-#OBJS = WPNetwork.o
-#DEPS = WPNetwork.h
-#
-#%.o: %.cpp $(DEPS)
-#	$(CXX) $(CXXFLAGS) -c -o $@ $<
-#
-#main: $(OBJS)
-#	@echo "BAM"
-#	$(CXX) $(CXXFLAGS) -o $@ $^
-#
-#clean:
-#	rm main $(OBJS)
